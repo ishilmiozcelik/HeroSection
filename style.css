@@ -4,7 +4,69 @@ padding: 0;
 box-sizing: border-box;
 }
 
-.hero{
-background-image: ;
+body{
+background: hsl(257, 40%, 49%) url("bg-desktop.svg") no-repeat;
+padding: 20px 60px;
+}
 
+.logo img{
+width: 100px;
+filter: invert(100%); /*opposite-color */
+}
+
+.hero{
+display: flex;
+padding-top: 55px;
+justify-content: space-between;
+margin-bottom: -20px;
+}
+
+.hero-img{
+padding-right: 2.5em;
+}
+
+.hero-content{
+margin-top: 70px;
+color: #fff;
+padding-bottom: 20px;
+}
+
+p{
+line-height: 1.7;
+opacity: 0.8;
+}
+
+button{
+padding: 15px 60px;
+margin-top: 30px;
+border-radius: 5rem;
+border: 0;
+cursor: pointer;
+color: #674baf;
+font-size: 1em;
+font-weight: 600;
+transition: 0.3s all ease;
+}
+
+button:hover{
+color: #fff; 
+background: hsl(300, 69%, 71%); 
+}
+
+/* bottom */
+
+.socials{
+text-align: right;
+
+}
+
+
+.fa-brands{
+border: 2px solid #fff;
+padding: 10px 10px;
+border-radius: 30px;
+margin-left: 20px;
+color: #fff;
+transition: 0.3s all ease;
+margin-bottom: 10px;
 }
